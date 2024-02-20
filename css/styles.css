@@ -74,3 +74,36 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #f0f0f0; /* Light gray background for the section */
+}
+
+.content-section .text-content,
+.content-section .image-content {
+    flex: 1;
+    margin: 1rem;
+}
+
+.content-section .image-content {
+    background-color: #e0e0e0; /* Slightly darker gray for the image background */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-section .image-content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.content-section.alternate {
+    flex-direction: row-reverse;
+}
