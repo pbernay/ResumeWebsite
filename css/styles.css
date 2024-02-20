@@ -13,21 +13,28 @@ body, html {
 }
 
 .navbar ul {
-    list-style-type: none;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0;
 }
 
 .navbar li {
-    float: left;
+    list-style: none;
 }
 
 .navbar li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 10px 15px;
     text-decoration: none;
+    color: white;
+}
+
+.navbar li.nav-image {
+    margin: 0 20px;
+}
+
+.navbar li.nav-image a img {
+    height: 50px; /* Adjust as per your logo's aspect ratio */
 }
 
 .navbar li a:hover {
