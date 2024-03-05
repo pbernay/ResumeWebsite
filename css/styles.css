@@ -97,7 +97,7 @@ body::before {
 }
 
 main {
-    padding-top: 60px; /* Give space for fixed navbar */
+    padding-top: 0px; /*could be useless */
 }
 
 .intro {
