@@ -134,6 +134,10 @@ footer {
     background-color: #f0f0f0; /* Example background color */
 }
 
+.content-section p {
+    margin-bottom: 20px;
+}
+
 .content-section .text-content,
 .content-section .image-content {
     flex: 1;

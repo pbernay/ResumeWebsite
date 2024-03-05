@@ -7,18 +7,21 @@
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projects Page</title>
+    <title>Main Page</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div class="main-wrapper">
+      <div class="fullscreen-image">
+        <h1 class="image-title">Projects</h1>
+      </div>
       <header>
         <nav class="navbar">
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li class="nav-image">
-              <a href="index.html"><img src="images/logo.png" alt="Logo" /></a>
+              <a href="index.html"><img src="sample" alt="Logo" /></a>
             </li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="about.html">About</a></li>
@@ -26,36 +29,72 @@
         </nav>
       </header>
       <main>
-        <section class="content">
-          <h1>My Projects</h1>
-          <p>
-            This section showcases the projects I have worked on, demonstrating
-            my technical skills and project management abilities.
-          </p>
-          <article>
-            <h2>Project One</h2>
+        <section class="content-section">
+          <div class="text-content">
+            <h2>College Football Simulation</h2>
             <p>
-              A brief description of the first project. More details can be
-              added here, along with a link to the project or a case study.
+                This game is in-progress and is a passion project that I like to do to further my skills at programming, project management, and game development.
             </p>
-          </article>
-          <article>
-            <h2>Project Two</h2>
             <p>
-              Description of the second project. Each project description can
-              also include challenges faced and solutions devised.
+                I am using Python, SQL, SQLite, GitHub, and Databases. So far I have completed the basic database schema and am working on the backend trying to implement a simulation method with player overall and potential.
+            </p> 
+            <p> 
+                During this project I am also exploring different ways to manage IT projects processes like Kanban, Agile, and Trello.
             </p>
-          </article>
-          <!-- Additional projects can be listed similarly -->
+            <p>    
+                Please see the GitHub project for updated info on the project and to see it in its entirety.
+            </p>
+          </div>
+          <div class="image-content">
+            <a href="https://github.com/pbernay/CFB-Football-Sim" title="Goes to GitHub" target="_blank">
+                <img src="images/81450994-6b9d-4161-8973-c641da5947f1.png" alt="Description of Image 2">
+            </a>
+          </div>
+        </section>
+
+        <section class="content-section alternate">
+          <div class="text-content">
+            <h2>Introduction to Database Project</h2>
+            <p>
+                This project deals with Java database connectivity(JDBC) with SQL. It was a group project where I did the design and coding of the Java Application, along with integration with SQL. This project used SQLite.
+                I also helped the rest of the group work on the design of the database schema.
+            </p>
+            <p>
+                The project is further outlined in my GitHub.
+            </p>
+          </div>
+          <div class="image-content">
+            <a href="https://github.com/pbernay/3241-Intro-to-Databases" title="Goes to GitHub" target="_blank">
+                <img src="images/81450994-6b9d-4161-8973-c641da5947f1.png" alt="Description of Image 2">
+            </a>
+          </div>
+        </section>
+
+        <section class="content-section">
+          <div class="text-content">
+            <h2>The Resume Website</h2>
+            <p>
+                This website is a project that just outlines the broad/basic skills that I have in website design and deployment. The goal of the website is also to create a showcase of the skills that I have shown already. This is a simple website with few moving parts on purpose. I will continue to update and change it until it fits what I want to showcase. 
+            </p>
+            <p>
+                I want the website to be a more detailed resume basically. The files will be made public on GitHub when completed.
+            </p>
+          </div>
+          <div class="image-content">
+            <img
+              src="images/81450994-6b9d-4161-8973-c641da5947f1.png"
+              alt="Description of Image 2"
+            />
+          </div>
         </section>
       </main>
       <footer>
         <p>
           Contact me at
-          <a href="mailto:email@example.com">email@example.com</a>.
+          <a href="mailto:pbernay02@gmail.com">pbernay02@gmail.com</a>.
         </p>
       </footer>
-      <script src="js/script.js"></script>
+      <script src="script.js"></script>
     </div>
   </body>
 </html>
