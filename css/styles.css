@@ -139,34 +139,34 @@ footer {
 
 .content-section {
     display: flex;
-    align-items: flex-start; /* Aligns items at the start of the cross axis */
+    align-items: center; /* Aligns items at the center of the cross axis */
     justify-content: space-between; /* Keeps space between the text and the image */
     margin-bottom: 2rem;
     padding: 1rem;
     background-color: #f0f0f0; /* Example background color */
 }
 
-.content-section p {
-    margin-bottom: 20px;
-}
-
-.content-section .text-content,
-.content-section .image-content {
-    margin: 20px;
+.content-section .text-content {
+    flex-grow: 1;
+    margin-right: 20px; /* Adjust this value to move the text closer or further from the image */
+    margin-left: 20px; 
 }
 
 .content-section .image-content {
+    flex-shrink: 0;
     background-color: #e0e0e0; /* Slightly darker gray for the image background */
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px; /* Adjust this value to move the image closer or further from the text */
 }
 
 .content-section .image-content img {
-    max-width: 200px;
-    height: 200px;
+    max-width: 100%; /* Allow the image to fill its container */
+    height: auto; /* Maintain the aspect ratio */
 }
 
 .content-section.alternate {
