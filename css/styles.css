@@ -4,6 +4,7 @@ body, .main-wrapper {
     height: 100%;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 5%;
 }
 
 .main-wrapper .content {
@@ -148,8 +149,8 @@ footer {
 
 .content-section .text-content {
     flex-grow: 1;
-    margin-right: 20px; /* Adjust this value to move the text closer or further from the image */
-    margin-left: 20px; 
+    margin-right: 100px; /* Adjust this value to move the text closer or further from the image */
+    margin-left: 100px; 
 }
 
 .content-section .image-content {
@@ -167,6 +168,21 @@ footer {
 .content-section .image-content img {
     max-width: 100%; /* Allow the image to fill its container */
     height: auto; /* Maintain the aspect ratio */
+}
+
+.content-section .image-content .imageSmall {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.content-section .image-content .imageMed {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.content-section .image-content .imageLarge {
+    max-width: 1000px;
+    max-height: 1000px;
 }
 
 .content-section.alternate {
