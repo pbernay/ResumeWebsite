@@ -26,17 +26,66 @@ body, .main-wrapper {
     justify-content: center; /* Horizontally center the title if needed */
 }
 
+.fullscreen-image-resume {
+    position: relative; /* This makes it a reference for absolutely positioned child elements */
+    background-image: url('../images/Columbus-ohio-skyline-panorama.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center; /* This will vertically center the title */
+    justify-content: center; /* Horizontally center the title if needed */
+}
+
+.fullscreen-image-projects {
+    position: relative; /* This makes it a reference for absolutely positioned child elements */
+    background-image: url('../images/2560px-Columbus_Pano_2.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center; /* This will vertically center the title */
+    justify-content: center; /* Horizontally center the title if needed */
+}
+
+.fullscreen-image-about {
+    position: relative; /* This makes it a reference for absolutely positioned child elements */
+    background-image: url('../images/usa-columbus-ohio-skyline.png');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center; /* This will vertically center the title */
+    justify-content: center; /* Horizontally center the title if needed */
+}
+
 .image-title {
     position: absolute;
     bottom: 40%;
     left: 50%;
     transform: translateX(-50%);
     color: #ffffff;
-    font-size: 2em;
+    font-size: 50px;
     text-align: center;
     width: 80%;
     max-width: 600px;
     text-shadow: 5px 5px 12px rgba(0, 0, 0, 0.7); /* Drop shadow */
+}
+
+.image-title-secondary {
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 1); /* Drop shadow */
 }
 
 body::before {
